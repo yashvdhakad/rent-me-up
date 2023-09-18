@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
     <section className="w-full h-1/3 my-32 rounded-xl bg-heroBg bg-cover bg-center shadow flex  justify-center items-center">
-      <div className="w-full flex justify-center gap-4">
+      <div className="w-full flex flex-wrap justify-center gap-4">
         <div className="flex">
           <div className="pl-4 rounded-s-xl bg-white flex justify-center items-center">
             <svg

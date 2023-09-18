@@ -3,7 +3,7 @@ import logo from "@/app/assets/logo.png";
 
 const Footer = () => {
   return (
-    <section className="w-full p-10 pb-6 grid grid-cols-5 gap-6 bg-white rounded-t-xl shadow-upward">
+    <section className="w-full px-20 pt-10 pb-6 grid grid-cols-5 gap-6 bg-white rounded-t-xl shadow-upward">
       <div className="col-span-2 flex flex-col">
         <Image src={logo} height={60} alt="RentMeUp"></Image>
         <p className="w-2/3 pl-4 text-sm font-medium">
