@@ -1,9 +1,11 @@
 import Hero from "@/app/components/Hero";
+import Properties from "./components/Properties";
 
 export default function Home() {
   return (
-    <section className="max-w-screen-xl h-screen m-auto">
+    <section className="max-w-screen-xl m-auto">
       <Hero />
+      <Properties />
     </section>
   );
 }

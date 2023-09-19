@@ -25,10 +25,10 @@ function Header() {
   const cta = "Create a Listing";
 
   return (
-    <section className="fixed top-0 w-full">
+    <section className="fixed top-0 w-full z-50">
       <section className="max-w-screen-xl m-auto flex justify-between items-center rounded-b-xl bg-zinc-50 shadow transition-all">
         <Image src={logo} height={80} alt="RentMeUp"></Image>
-        <ul className="flex gap-6">
+        <ul className="flex gap-12">
           {navArr.map((nav) => {
             return (
               <li className="font-semibold hover:text-red-400">
