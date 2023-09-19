@@ -33,7 +33,7 @@ function Header() {
         <ul className="flex gap-10">
           {navArr.map((nav) => {
             return (
-              <li className="font-medium hover:text-red-400">
+              <li className="font-semibold hover:text-red-400">
                 <Link href={nav.href}>{nav.name}</Link>
               </li>
             );
