@@ -4,9 +4,15 @@ const Properties = ({ city, direction }) => {
   return (
     <section className="w-full my-12 p-6 rounded-xl bg-white flex flex-col gap-6 shadow">
       <h2 className="text-2xl font-bold">Top Rental Properties In {city}</h2>
-      <Marquee className="rounded-xl" speed={40} direction={direction} pauseOnHover autoFill>
+      <Marquee
+        className="rounded-xl"
+        speed={40}
+        direction={direction}
+        pauseOnHover
+        autoFill
+      >
         <div className="mx-3 p-2 rounded-xl bg-red-50 flex flex-col gap-2">
-          <div className="w-96 h-96 bg-jp bg-cover bg-center rounded-xl shadow flex flex-col justify-end">
+          <div className="w-96 h-[500px] bg-jp bg-cover bg-center rounded-xl shadow flex flex-col justify-end">
             <div className="p-4 bg-gradient-to-b from-transparent to-black/80 backdrop-blur-xl rounded-xl text-zinc-200 flex flex-col gap-2">
               <svg
                 className="absolute top-4 right-4"

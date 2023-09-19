@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
     <section className="w-full mt-32 mb-12 p-20 rounded-xl bg-heroBg bg-cover bg-center shadow flex flex-col  justify-center items-center gap-10 text-white">
-      <h1 className="text-5xl font-bold text-center drop-shadow bg-white/10 backdrop-blur-xl px-10 py-6 rounded-xl border border-white/10">
+      <h1 className="p-6 text-5xl font-bold text-center drop-shadow bg-white/10 backdrop-blur-xl rounded-xl border border-white/10">
         Find Your Flat and Flatmate <br />
         <span className="text-xl font-medium">
           with India's Fastest Growing Rental Properties Listing Platform.

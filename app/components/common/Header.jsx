@@ -6,19 +6,19 @@ function Header() {
   const navArr = [
     {
       name: "Find Properties",
-      href: "/",
+      href: "/properties",
     },
     {
       name: "Services",
-      href: "/",
+      href: "/services",
     },
     {
       name: "About",
-      href: "/",
+      href: "/about",
     },
     {
       name: "Contact",
-      href: "/",
+      href: "/contact",
     },
   ];
 
@@ -27,7 +27,9 @@ function Header() {
   return (
     <section className="fixed top-0 w-full z-50">
       <section className="max-w-screen-xl m-auto flex justify-between items-center rounded-b-xl bg-zinc-50 shadow transition-all">
-        <Image src={logo} height={80} alt="RentMeUp"></Image>
+        <Link href="/">
+          <Image src={logo} height={80} alt="RentMeUp"></Image>
+        </Link>
         <ul className="flex gap-10">
           {navArr.map((nav) => {
             return (
