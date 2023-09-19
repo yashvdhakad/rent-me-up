@@ -67,7 +67,20 @@ const Hero = () => {
             type="text"
           />
         </div>
-        <button className="px-6 py-3 font-semibold bg-red-500 rounded-xl text-zinc-50 shadow hover:shadow-none transition-all hover:scale-95 hover:bg-red-400">
+        <button className="px-6 py-3 bg-red-500 rounded-xl shadow hover:shadow-none transition-all hover:scale-95 hover:bg-red-600">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill="#ffffff"
+              d="M9 5a1 1 0 1 0 0 2a1 1 0 0 0 0-2zM6.17 5a3.001 3.001 0 0 1 5.66 0H19a1 1 0 1 1 0 2h-7.17a3.001 3.001 0 0 1-5.66 0H5a1 1 0 0 1 0-2h1.17zM15 11a1 1 0 1 0 0 2a1 1 0 0 0 0-2zm-2.83 0a3.001 3.001 0 0 1 5.66 0H19a1 1 0 1 1 0 2h-1.17a3.001 3.001 0 0 1-5.66 0H5a1 1 0 1 1 0-2h7.17zM9 17a1 1 0 1 0 0 2a1 1 0 0 0 0-2zm-2.83 0a3.001 3.001 0 0 1 5.66 0H19a1 1 0 1 1 0 2h-7.17a3.001 3.001 0 0 1-5.66 0H5a1 1 0 1 1 0-2h1.17z"
+            />
+          </svg>
+        </button>
+        <button className="px-6 py-3 font-semibold bg-red-500 rounded-xl text-zinc-50 shadow hover:shadow-none transition-all hover:scale-95 hover:bg-red-600">
           Search
         </button>
       </div>

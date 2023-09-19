@@ -13,6 +13,7 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         heroBg: "url('../app/assets/heroBg.webp')",
         jp: "url('../app/assets/properties/jaipur/1.jpg')",
+        user: "url('../app/assets/userDp.webp')",
       },
       boxShadow: {
         upward:
