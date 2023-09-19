@@ -31,7 +31,7 @@ const Hero = () => {
             </svg>
           </div>
           <input
-            className="px-4 rounded-e-xl font-semibold shadow-xl focus:outline-none"
+            className="px-4 rounded-e-xl font-semibold shadow-xl focus:outline-none text-zinc-900"
             placeholder="City"
             type="text"
           />
@@ -62,7 +62,7 @@ const Hero = () => {
             </svg>
           </div>
           <input
-            className="px-4 rounded-e-xl font-semibold shadow-xl focus:outline-none"
+            className="px-4 rounded-e-xl font-semibold shadow-xl focus:outline-none text-zinc-900"
             placeholder="Area"
             type="text"
           />
