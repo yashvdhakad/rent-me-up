@@ -12,7 +12,13 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         heroBg: "url('../app/assets/heroBg.webp')",
-        jp: "url('../app/assets/properties/jaipur/1.jpg')",
+        jp1: "url('../app/assets/properties/jaipur/1-min.jpg')",
+        jp2: "url('../app/assets/properties/jaipur/2-min.jpg')",
+        jp3: "url('../app/assets/properties/jaipur/3-min.jpg')",
+        jp4: "url('../app/assets/properties/jaipur/4-min.jpg')",
+        jp5: "url('../app/assets/properties/jaipur/5-min.jpg')",
+        jp6: "url('../app/assets/properties/jaipur/6-min.jpg')",
+        jp7: "url('../app/assets/properties/jaipur/7-min.jpg')",
         user: "url('../app/assets/userDp.webp')",
       },
       boxShadow: {
