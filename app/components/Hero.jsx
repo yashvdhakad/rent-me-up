@@ -3,8 +3,8 @@ const Hero = () => {
     <section className="w-full mt-32 mb-12 p-20 rounded-xl bg-heroBg bg-cover bg-center shadow flex flex-col  justify-center items-center gap-10 text-white">
       <h1 className="text-5xl font-bold text-center drop-shadow bg-white/10 backdrop-blur-xl px-10 py-6 rounded-xl border border-white/10">
         Find Your Flat and Flatmate <br />
-        <span className="text-2xl font-medium">
-          with India's Fastest Growing Rental Platform.
+        <span className="text-xl font-medium">
+          with India's Fastest Growing Rental Properties Listing Platform.
         </span>
         <br />
         <span className="px-3 py-2 border border-white/10 rounded-lg bg-white/10 backdrop-blur-xl text-base font-medium">

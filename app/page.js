@@ -5,7 +5,8 @@ export default function Home() {
   return (
     <section className="max-w-screen-xl m-auto">
       <Hero />
-      <Properties />
+      <Properties city="Jaipur" />
+      <Properties city="Mumbai" direction="right" />
     </section>
   );
 }
